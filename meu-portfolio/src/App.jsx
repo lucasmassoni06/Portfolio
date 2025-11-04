@@ -4,6 +4,7 @@ import About from './sections/About'
 import Skills from './sections/Skills'
 import Experience from './sections/Experience'
 import Contact from './sections/Contact'
+import Projects from './sections/Projects'
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
         <About/>
         <Skills/>
         <Experience/>
+        <Projects/>
         <Contact/>
       </main>
       <footer className="container-px py-10 text-sm opacity-70">

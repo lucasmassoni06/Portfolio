@@ -1,8 +1,8 @@
-import { experience } from '../data/experience'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Experience() {
   return (
-        <section className="bg-white py-20">
+        <section id="experience" className="bg-white py-20">
           <div className="max-w-5xl mx-auto px-4 container-px">
             <h2 className="text-gray-800 dark:text-gray-100 mb-12 text-2xl font-bold">
               Formação Acadêmica
@@ -24,7 +24,7 @@ export default function Experience() {
 
               {/* Direita */}
               <div className="w-1/2 pl-8 text-left">
-                <h4 className="text-lg font-semibold text-gray-800 mb-1">Conhecimentos</h4>
+                <h4 className="text-lg font-semibold text-gray-800 mb-1">Bacharelado</h4>
                 <div className="w-10 h-[2px] bg-gray-300 mb-4"></div>
                 <p className="text-gray-600 leading-relaxed text-[1.05rem]">
                   Durante minha trajetória na FIAP, participei de diversos projetos desafiadores no programa Global Solution, que fortaleceram minha capacidade de trabalhar em equipe e aplicar soluções criativas a problemas reais.
@@ -51,8 +51,8 @@ export default function Experience() {
 
               {/* Direita */}
               <div className="w-1/2 pl-8 text-left ">
-                <h4 className="text-lg font-semibold text-gray-800 mb-1 mt-5">Conhecimentos</h4>
-                <div className="w-10 h-[2px] bg-gray-300 mb-4"></div>
+                <h4 className="text-lg font-semibold text-gray-800 mb-1 mt-5">Tecnólogo</h4>
+                <div className="w-10 h-2px bg-gray-300 mb-4"></div>
                 <p className="text-gray-600 leading-relaxed text-[1.05rem]">
                   Durante meus estudos na FAM (Faculdade das Américas), aprimorei meus conhecimentos em bancos de dados, aprendendo a projetar, manipular e gerenciar informações com SQL e Oracle.
                   Além disso, tive contato com fundamentos de redes de computadores, infraestrutura e diversas áreas da tecnologia da informação, o que ampliou minha compreensão sobre como sistemas e aplicações se conectam e funcionam de forma integrada.
