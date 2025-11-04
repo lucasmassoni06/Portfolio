@@ -8,9 +8,11 @@ export const projects = [
     demo: 'https://github.com/lucasmassoni06/Portfolio.git',
   },
   {
-    slug: 'portfolio',
-    title: 'Meu Portfólio',
-    description: 'Projeto atual, com tema escuro e acessibilidade.',
-    tech: ['React', 'Tailwind'],
+    slug: 'Global Soluction',
+    title: 'Global Soluction',
+    description: 'Primeiro projeto usando meus aprendizados.',
+    tech: ['Html', 'Css', 'Nodejs'],
+    repo: 'https://github.com/lucasmassoni06/GlobalSolution.git',
+    demo: 'https://global-solution-seven.vercel.app/'
   },
 ]
