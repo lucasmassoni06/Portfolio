@@ -20,7 +20,7 @@ export default function App() {
         <Contact/>
       </main>
       <footer className="container-px py-10 text-sm opacity-70">
-        © {new Date().getFullYear()} Seu Nome • Feito com React + Tailwind
+        © {new Date().getFullYear()} Lucas Massoni • (11) 94550-9987
       </footer>
     </div>
   )

@@ -1,16 +1,8 @@
 import { skills } from '../data/skills'
 import LogoLoop from '../components/LogoLoop'
-import { SiReact, SiHtml5, SiTypescript, SiTailwindcss, SiCss3, SiNodedotjs, SiPython} from 'react-icons/si';
+import { techLogos } from '../data/techlogos';
 
-export const techLogos = [
-  {  node: <SiReact />, title: "React", href: "https://react.dev"},
-  {  node: <SiHtml5 />, title: "HTML5", href: "https://html5.com"},
-  {  node: <SiTypescript />, title: "TypeScript", href: "https://www.typescriptlang.org"},
-  {  node: <SiTailwindcss />, title: "Tailwind CSS", href: "https://tailwindcss.com"},
-  {  node: <SiCss3 />, title: "CSS3", href: "https://css3.com"},
-  {  node: <SiNodedotjs />, title: "NodeJs", href: "https://nodejs.or"},
-  {  node: <SiPython />, title: "Python", href: "https://python.org"},
-];
+
 
 export default function Skills() {
   return (

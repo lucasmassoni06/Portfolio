@@ -2,6 +2,7 @@ export const skills = [
   { name: 'React', level: 'Intermediário' },
   { name: 'TypeScript', level: 'Intermediário' },
   { name: 'Tailwind', level: 'Intermediário' },
+  { name: 'Java', level: 'Iniciante'},
   { name: 'Node.js', level: 'Intermediário' },
   { name: 'Python', level: 'Intermediário' },
   { name: 'Css', level: 'Avançado' },
